@@ -1,0 +1,60 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.card a:hover {
+    background-color: #ebebec;
+}
+header {
+    background-color: #323131;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* Textes titres etc. */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 50px 0 20px;
+    color: #1d1d1f;
+}
+/* En têtes */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dcdddd;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
