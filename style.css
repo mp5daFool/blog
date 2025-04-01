@@ -79,4 +79,20 @@ nav a:hover {
     width: 100px; /* Ajustez la taille selon vos besoins */
     height: auto;
     z-index: 1000; /* Assurez-vous qu'elle reste au-dessus des autres éléments */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.right-banner {
+    position: fixed;
+    top: 60px; /* Ajustez cette valeur pour correspondre à la hauteur de l'entête */
+    right: 0;
+    width: 120px; /* Largeur de la bannière */
+    height: calc(100% - 60px); /* Hauteur de la page moins l'entête */
+    background-color: #323131; /* Couleur de fond de la bannière */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
