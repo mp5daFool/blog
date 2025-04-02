@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, MBCorpo Title, BlinkMacSystemFont, "DaimlerCAC-Regular", Roboto, "Helvetica Neue", "DaimlerCSArab-Regular", Arial, sans-serif;
+    font-family: -apple-system,Arial, sans-serif;
     background-color: rgb(27, 27, 27);
     color: #eceaea;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 .hero
 h1 {
     font-size: 2.5rem;
-    font-family: MB;
+    font-family: 'SFPRODISPLAYBOLD', sans-serif;
     font-weight: 600;
     margin: 50px 0 20px;
     color: #ddddde;
@@ -61,6 +61,37 @@ h1 {
     font-weight: 600;
     margin: 50px 0 20px;
     color: #ddddde;
+}
+font-face {
+    font-family: 'SFPRODISPLAYBOLD';
+    src: url('fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+}
+.centre {
+    text-align: center;
+}
+/* Bulle autour des titres h2 */
+h2 {
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 50px; 
+    font-weight: 600; 
+    text-align: center; 
+    margin: 20px 0; 
+}  
+/* Bulle autour des titres h4 */
+h4 {
+    display: inline-block; 
+    color: #ffffff; 
+    outline-color: #dbdbdb;
+    outline-style: outset;
+    padding: 10px 20px; 
+    border-radius: 50px; 
+    font-weight: 600; 
+    text-align: center; 
+    margin: 20px 0; 
+    position: relative;
 }
 /* En têtes */
 .logo {
